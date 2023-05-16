@@ -1,0 +1,32 @@
+[
+    {
+        "parameterName": "BOD",
+        "min_value": "2.28",
+        "max_value": "6.87",
+        "avg_value": "2.56"
+    },
+    {
+        "parameterName": "COD",
+        "min_value": "18.98",
+        "max_value": "57.26",
+        "avg_value": "21.37"
+    },
+    {
+        "parameterName": "Flow",
+        "min_value": "1080.00",
+        "max_value": "1080.00",
+        "avg_value": "1080.00"
+    },
+    {
+        "parameterName": "TSS",
+        "min_value": "1.28",
+        "max_value": "1.95",
+        "avg_value": "1.45"
+    },
+    {
+        "parameterName": "pH",
+        "min_value": "7.29",
+        "max_value": "7.40",
+        "avg_value": "7.33"
+    }
+]
