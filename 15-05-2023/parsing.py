@@ -1,19 +1,18 @@
 import json
+
 with open("sample_data.json") as file:
-
-    sample_data = json.load(file)
-    new_list = []
-    parameters = sample_data["parametersList"]
-    for each_parameter in parameters:
-        new_dict = {
-            "parameterName": each_parameter["parameterName"],
-            "min_value": each_parameter["min"],
-            "max_value": each_parameter["max"],
-            "avg_value": each_parameter["avg"]
+    json_content = file.read()
+    data = json.loads(json_content)
+    transformed_items = []
+    parameters_list = data["parametersList"]
+    for parameter in parameters_list:
+        transformed_item = {
+            "parameter_name": parameter["parameterName"],
+            "minimun_value": parameter["min"],
+            "maximum_value": parameter["max"],
+            "average_value": parameter["avg"]
         }
-        new_list.append(new_dict)
+        transformed_items.append(transformed_item)
 
-json_list = json.dumps(new_list, indent=4)
-print(json_list)
-with open("sample_out.json", "w") as file1:
-    file1.write(json_list)
+transformed_json = json.dumps(transformed_items, indent=2)
+print(transformed_json)
