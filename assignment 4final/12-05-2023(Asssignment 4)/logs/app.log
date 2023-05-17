@@ -1,0 +1,35 @@
+2023-05-15 14:49:32,818 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-15 14:49:33,010 - ERROR - {'Error:', 'while connecting to MongoDB'}
+2023-05-15 17:50:29,284 - ERROR - {'Error:', 'while connecting to MongoDB'}
+2023-05-15 18:55:07,234 - ERROR - {'Error': "'Email_handler' object has no attribute 'find_total'"}
+2023-05-16 12:40:23,309 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:03:59,806 - ERROR - {'Error': "192.168.0m.220:2717: [Errno 11001] getaddrinfo failed, Timeout: 30s, Topology Description: <TopologyDescription id: 64634dccd3d0a025412ff9a2, topology_type: Unknown, servers: [<ServerDescription ('192.168.0m.220', 2717) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0m.220:2717: [Errno 11001] getaddrinfo failed')>]>"}
+2023-05-16 15:04:45,885 - ERROR - {'error': "192.168.0m.220:2717: [Errno 11001] getaddrinfo failed, Timeout: 30s, Topology Description: <TopologyDescription id: 64634e107be3c9bce83e49ba, topology_type: Unknown, servers: [<ServerDescription ('192.168.0m.220', 2717) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0m.220:2717: [Errno 11001] getaddrinfo failed')>]>"}
+2023-05-16 15:14:11,357 - INFO - This is an information log message
+2023-05-16 15:14:11,357 - ERROR - This is an error log message
+2023-05-16 15:16:07,303 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:16:31,927 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:16:46,785 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:16:49,489 - ERROR - {'Error:', 'while connecting to MongoDB'}
+2023-05-16 15:16:54,645 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:16:59,479 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:17:05,185 - ERROR - {'Error:', 'while connecting to MongoDB'}
+2023-05-16 15:18:06,199 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:18:15,412 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:18:32,922 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:19:45,703 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-16 15:20:46,800 - ERROR - {'while connecting to MongoDB', 'Error:'}
+2023-05-17 10:09:01,331 - ERROR - mongo.py:9 - <module> - {'Error:', 'while connecting to MongoDB'}
+2023-05-17 10:09:17,767 - ERROR - mongo.py:9 - <module> - {'while connecting to MongoDB', 'Error:'}
+2023-05-17 10:19:26,084 - ERROR - mongo.py:10 - <module> - {'Error:', 'while connecting to MongoDB'}
+2023-05-17 10:23:42,855 - ERROR - mongo.py:10 - <module> - {'Error:', 'while connecting to MongoDB'}
+2023-05-17 10:30:23,710 - ERROR - inventory_services.py:79 - sending_item - {'Error': 'pipeline must be a list'}
+2023-05-17 10:30:49,915 - ERROR - inventory_services.py:79 - sending_item - {'Error': 'pipeline must be a list'}
+2023-05-17 10:37:44,425 - ERROR - inventory_services.py:79 - sending_item - {'Error': "'Total_Price'"}
+2023-05-17 10:39:36,285 - ERROR - inventory_handler.py:45 - update_item - {'error': 'Item not found'}
+2023-05-17 10:39:47,393 - ERROR - inventory_handler.py:45 - update_item - {'error': 'Item not found'}
+2023-05-17 10:40:40,733 - ERROR - inventory_handler.py:71 - find_total - {'error': "'Total_Price'"}
+2023-05-17 10:42:55,932 - ERROR - inventory_handler.py:71 - find_total - {'error': "'total_amount'"}
+2023-05-17 12:50:22,424 - ERROR - inventory_services.py:79 - sending_item - {'Error': 'Object of type datetime is not JSON serializable'}
+2023-05-17 12:57:00,076 - ERROR - inventory_services.py:79 - sending_item - {'Error': 'Object of type datetime is not JSON serializable'}
+2023-05-17 13:40:44,488 - ERROR - mongo_utility.py:11 - <module> - {'while connecting to MongoDB', 'Error:'}
